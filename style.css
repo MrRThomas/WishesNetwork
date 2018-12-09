@@ -1,0 +1,403 @@
+/*
+Theme Name: WishesNetwork
+Theme URI: http://www.wishesnetwork.com
+Description: Attempt at Wordpress with WishesNetwork.com
+Version: 1.0
+Author: Robbie Thomas
+Author URI: http://www.qwick.info/wishnet
+Tags: Black, Retro, Single-Panel;
+*/
+
+/*
+font-family: 'Press Start 2P', cursive;
+font-family: 'Share Tech Mono', monospace;
+font-family: 'Cute Font', cursive;
+font-family: 'Iceland', cursive;
+
+These are the fonts we are going to use!
+*/
+
+
+body {
+  background-color: black;
+}
+
+header {
+	text-align: center;
+  font-color: #CCFFCC;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+nav {
+  text-align: center;
+  font-size: 32px;
+  color: yellow;
+  font-weight: bold;
+  font-family: 'Iceland', cursive;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: 1.5s ease;
+  border-bottom: 1px 1px 1px 1px solid #ebecec;
+  display: block;
+}
+
+nav a:hover {
+  color: black;
+  transition: 1.5s ease;
+
+}
+
+nav ul {
+  list-style: none;
+  margin: 10px 10px;
+  padding: 0px;
+}
+
+nav li {
+  width: 25%;
+  display: inline-block;
+  margin: 10px 10px;
+  vertical-align: middle;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: blue;
+}
+
+nav li:hover {
+  background-color: red;
+  transition: 1.5s ease;
+}
+
+
+
+
+
+section {
+  border: 25px;
+  max-width: 1040px;
+  font-color: #000000;
+}
+
+.wrapper {
+  max-width: 1040px;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: #D6D6C2;
+  margin: 5px auto;
+}
+
+.wrapper2 {
+  max-width: 1040px;
+  padding: 0 5%;
+  border: 2px solid black;
+  border-radius: 25px;
+  background-color: #D6D6C2;
+  margin: 5px auto;
+  text-align: left;
+}
+
+.wrapper, .wrapper2 a {
+  color: #5C7A00;
+  transition: 1.5s ease;
+}
+
+.wrapper, .wrapper2 {
+  color: #000000;
+}
+
+a:hover {
+  color: #CCCC7A;
+}
+
+h1, h2 {
+  font-family: 'Share Tech Mono', monospace;
+	color: #FF3333;
+  font-size: 24px;
+  -webkit-column-span: all;
+}
+
+h3 {
+  font-family: 'Iceland', cursive;
+  color: #000000;
+  font-size: 20px; 
+}
+
+h4 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.primary { 
+	font-family: 'Press Start 2P', cursive;
+	vertical-align: top;
+	padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.secondary {
+  font-family: 'Cute Font', cursive;
+	vertical-align: top;
+}
+
+.secondary img {
+	margin-top: 10px;
+}
+
+.funstuff {
+  margin: 25px;
+}
+
+footer {
+	font-family: 'Ubuntu', 'sans-serif';
+	max-width: 940px;
+	max-height: 200px;
+	background-color: #00FF00;
+}
+
+footer a {
+	text-decoration: none;
+	color: #6B8E23;
+}
+
+footer a:hover {
+	color: #FFFFFF;
+	transition: 1.5s ease;
+}
+
+img {
+  
+}
+
+.image1, .image2, .image3 {
+  float: left;
+}
+
+.headline1, .headline2, .headline3 {
+  float: right;
+}
+
+.linkone  {
+  background-color: #19728E;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: bold;
+  font-size: 16px;
+  text-align: center;
+  width: 380px;
+  height: 385px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.linkone a {
+  color: #FF9900;
+  transition: 1.5s ease;
+}
+
+.linkone a:hover {
+  color: #FFFFFF; 
+}
+
+.starter {
+  font-size: 22px;
+}
+
+
+/*************************
+BUTTON PAGE
+*************************/
+.btn {
+  background: #3498db;
+  border-radius: 10px;
+  font-family: "Open Sans", Arial;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn a {
+  color: #e8f442;
+}
+
+.btn a:hover {
+  transition: 10s ease;
+}
+
+.btn2 {
+  background: #3498db;
+  border-radius: 10px;
+  font-family: "Open Sans", Arial;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn2 a {
+  color: #e8f442;
+  transition: .1s ease;
+}
+
+.btn2 a:hover {
+  color: #27ea3b;
+  transition: .1s ease;
+}
+
+.btn3 {
+  background: #3498db;
+  border-radius: 10px;
+  font-family: "Open Sans", Arial;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn3 a {
+  color: #FFFFFF;
+  transition: 10s ease;
+}
+
+.btn3:hover {
+  background: #f71c0c;
+  transition: .1s ease;
+}
+
+.btn4 {
+  background: #3498db;
+  border-radius: 10px;
+  font-family: "Open Sans", Arial;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn4 a {
+  color: #FFFFFF;
+  transition: 10s ease;
+}
+
+.btn4:hover {
+  background: #f71c0c;
+  transition: 2s ease;
+}
+
+.link1 {
+  font-family: "Open Sans", Arial;
+  font-size: 24px;
+  color: #5C7A00;
+  text-decoration: none;
+}
+
+.link1:hover {
+  color: #FFFFFF;
+  transition: 2.5s ease;
+}
+
+
+/*************************
+TEXT AREAS
+*************************/
+
+textarea {
+  resize: none;
+  background-color: #f4f142;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+/*************************
+MEDIA Q's
+*************************/
+
+@media (min-width: 320px) and (max-width: 568px) {
+
+  body {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav li {
+  	display: block;
+  	margin: 10px;
+  	width: 100%;
+  	height: 40px;
+  	font-size: 20px;
+  }
+
+img {
+  width: 80%;
+  height: 200px;
+}
+
+.linkone img {
+  width: 200px;
+  height: 250px;
+}
+
+.linkone  {
+  width: 80%;
+  height: 325px;
+
+}
+
+.primary { 
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 820px) {
+
+   body {
+    font-size: 28px;
+  }
+
+    img {
+      max-width: 500px;
+    }
+
+    h1 {
+    font-size: 20px;
+}
+
+  h2 {
+    font-size: 16px;
+  }
+
+  nav {
+    font-size: 12px;
+  }
+
+  nav li {
+  	display: block;
+  	margin: 10px 10px;
+  	width: 100%;
+  	height: 28px;
+  }
+
+
+}
+
+
+
